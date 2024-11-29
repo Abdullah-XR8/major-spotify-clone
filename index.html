@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="utilities.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+  <div class="container flex bg-black">
+    <!--! MAIN PAGE LEFT PART IS HERE  -->
+    <div class="left bg-grey rounded">
+      <div class="home padding">
+        <img class="invert" src="Code/images/logo.svg" alt="" />
+        <ul>
+          <li>
+            <img class="invert" src="Code/images/home.svg" alt="home" /> Home
+          </li>
+          <li>
+            <img class="invert" src="Code/images/search.svg" alt="search" />
+            Search
+          </li>
+        </ul>
+      </div>
+      <div class="library padding bg-grey rounded">
+        <ul>
+          <li>
+            <img class="invert" src="Code/images/playlist.svg" width="30px" alt="playlist" />
+            Your Library
+          </li>
+        </ul>
+
+
+
+        <div class="library-buttons">
+          <button>Playlists</button>
+          <button>Artists</button>
+          <button>Albums</button>
+          <button>Podcasts</button>
+          <button><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i></button>
+        </div>
+
+        <div class="library-container">
+          <img src="Code/images/songs cover/ab67616d00001e02aad3f4b601ae8763b3fc4e88.jpeg" width="50px" alt="">
+          <h5>High On Me</h5>
+          <p class="font"><i class="fa-solid fa-music"  style="color: #1fdf64;"></i></p>
+        </div>
+
+
+        <div class="library-container">
+          <img src="Code/images/songs cover/ab67616d00001e021a8c4618eda885a406958dd0.jpeg" width="50px" alt="">
+          <h5>Cheque Subh</h5>
+          <p class="font"><i class="fa-solid fa-music"  style="color: #1fdf64;"></i></p>
+        </div>
+
+
+        <div class="library-container">
+          <img src="Code/images/songs cover/ab67616d00001e02bb25239324c4e16ae01fda36.jpeg" width="50px" alt="">
+          <h5>Admirin' You</h5>
+          <p class="font"><i class="fa-solid fa-music"  style="color: #1fdf64;"></i></p>
+        </div>
+
+
+        <div class="library-container">
+          <img src="Code/images/songs cover/en-GB (1).JPEG" width="50px" alt="">
+          <h5>Jee Ni Lagda</h5>
+          <p class="font"><i class="fa-solid fa-music"  style="color: #1fdf64;"></i></p>
+        </div>
+
+
+        <div class="library-container">
+          <img src="Code/images/songs cover/ab67616d00001e021d1cc2e40d533d7bcebf5dae.jpeg" width="50px" alt="">
+          <h5>Paapi Lyrics</h5>
+          <p class="font"><i class="fa-solid fa-music"  style="color: #1fdf64;"></i></p>
+        </div>
+
+
+       
+
+
+
+        <footer class="footer bg-grey rounded">
+          <ul class="footer-links">
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Safety & Privacy Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <ul class="footer-links">
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">About Ads</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+
+          <ul class="last-ul">
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+
+    <!--! MAIN PAGE RIGHT PART IS HERE  -->
+    <div class="right bg-grey rounded">
+      <!--? HEADER IS HERE  -->
+
+      <div class="header">
+        <div class="nav">
+          <i class="fa-solid fa-chevron-left" style="color: #cccccc"></i>
+          &nbsp; &nbsp;
+          <i class="fa-solid fa-chevron-right" style="color: #cccccc"></i>
+        </div>
+
+        <div class="buttons">
+          <button class="Sign-up">Sign up</button>
+          <button class="Login">Log in</button>
+        </div>
+      </div>
+
+      <!--? SPOTIFY PLAYLIST IS HERE  -->
+
+      <div class="spotify-Playlist">
+        <h2>Spotify Playlists</h2>
+
+
+
+        <div class="cardContainer">
+
+          <!--? FIRST CARD IS HERE -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e02bb25239324c4e16ae01fda36.jpeg"
+              alt="image" />
+            <h3 class="name">Admirin' You</h3>
+            <p class="Para">Admirin - By Karan Aujla and featuring Preston Pablo.</p>
+            <audio id="myAudio" src="Code/songs/Admirin You (feat. Preston Pablo) - Karan Aujla 320 Kbps.mp3"></audio>
+          </div>
+
+          <!--? SECOND CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/128Bad - Sidhu Moose Wala 128 Kbps.jpg"
+              alt="image" />
+            <h3 class="name">Sidhu' Bad Lyrics</h3>
+            <p class="Para">“Bad” - by Sidhu Moose Wala! Oh Low-key</p>
+            <audio id="myAudio" src="Code/songs/Bad - Sidhu Moose Wala 320 Kbps.mp3"></audio>
+          </div>
+
+          <!--? THIRD CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/128Game - Sidhu Moose Wala 128 Kbps.jpg"
+              alt="image" />
+            <h3 class="name">Sidhu' Game Lyrics</h3>
+            <p class="Para">"GAME" - Shooter Kahlon and Sidhu Moose Wala.</p>
+            <audio id="myAudio" src="Code/songs/Game - Sidhu Moose Wala 320 Kbps.mp3"></audio>
+          </div>
+
+
+
+          <!--? FOURTH CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e02aad3f4b601ae8763b3fc4e88.jpeg"
+              alt="image" />
+            <h3 class="name">Fuck Them - Glory</h3>
+            <p class="Para">"Fuck Them" - Yo Yo Honey Singh & Leo Grewal</p>
+            <audio id="myAudio" src="Code/songs/Fuck Them - Glory 320 Kbps.mp3"></audio>
+          </div>
+
+
+          <!--? FIFTH CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/128The Last Ride - Sidhu Moose Wala 128 Kbps.jpg"
+              alt="image" />
+            <h3 class="name">The Last Ride</h3>
+            <p class="Para">The Last Ride - Sidhu Moose Wala. The Last</p>
+            <audio id="myAudio" src="Code/songs/The Last Ride - Sidhu Moose Wala 320 Kbps.mp3"></audio>
+          </div>
+
+
+
+          <!--? SIX CARD IS HERE  -->
+
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e02bb25239324c4e16ae01fda36.jpeg"
+              alt="image" />
+            <h3 class="name">Try Me - Making Memories</h3>
+            <p class="Para">Try Me by Karan Aujla is brand Punjabi song</p>
+            <audio id="myAudio" src="Code/songs/Try Me - Making Memories 320 Kbps.mp3"></audio>
+          </div>
+
+
+
+          <!--? SEVEN CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e021a8c4618eda885a406958dd0.jpeg"
+              alt="image" />
+            <h3 class="name">Cheque by Subh Lyrics</h3>
+            <p class="Para">"Cheque" - by Subh Lyrics Punjabi</p>
+            <audio id="myAudio" src="Code/songs/Cheques - Shubh-(DJMaza).mp3"></audio>
+          </div>
+
+
+
+          <!--? EIGHT CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e02bb25239324c4e16ae01fda36.jpeg"
+              alt="image" />
+            <h3 class="name">Softly' Karan Aujla</h3>
+            <p class="Para">Softly - by Karan Aujla is brand Punjabi song</p>
+            <audio id="myAudio" src="Code/songs/Softly - Making Memories 320 Kbps.mp3"></audio>
+          </div>
+
+
+
+          <!--? NINE CARD IS HERE  -->
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e02aad3f4b601ae8763b3fc4e88.jpeg"
+              alt="image" />
+            <h3 class="name">High On Me - Glory</h3>
+            <p class="Para">High On Me - Glory By Yo Yo Honey Singh..</p>
+            <audio id="myAudio" src="Code/songs/High On Me - Glory 320 Kbps.mp3"></audio>
+          </div>
+
+
+          <!--? TEN CARD IS HERE  -->
+
+
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab67616d00001e021d1cc2e40d533d7bcebf5dae.jpeg"
+              alt="image" />
+            <h3 class="name">Sidhu' Paapi Lyrics</h3>
+            <p class="Para">"Paapi" by Sidhu Moose Wala! Oh Low-key</p>
+            <audio id="myAudio" src="Code/songs/Paapi - Rangrez Sidhu And Sidhu Moose Wala 320 Kbps.mp3"></audio>
+          </div>
+
+          <!--? ELEVN CARD IS HERE  -->
+
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/en-GB (8).JPEG" alt="image" />
+            <h3 class="name">Jee Ni Lagda - Making Memories</h3>
+            <p class="Para">Jee Ni Lagda - by Karan Aujla is brand Punjabi song</p>
+            <audio id="myAudio" src="Code/songs/Jee Ni Lagda - Making Memories 320 Kbps.mp3"></audio>
+          </div>
+
+
+          <!--? TWELF CARD IS HERE  -->
+
+
+          <div class="cards">
+            <div class="play">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <img class="productImage" src="Code/images/songs cover/ab676161000051748f553f96d564d1005a92d131.jpeg"
+              alt="image" />
+            <h3 class="name">Subh M.V.P </h3>
+            <p class="Para">M.V.P - by Karan Aujla is brand Punjabi song</p>
+            <audio id="myAudio" src="Code/songs/MVP-(DJMaza).mp3"></audio>
+          </div>
+
+
+
+        </div>
+
+
+        <div class="footer-items">
+
+          <div class="playbar">
+            <input type="range" value="0" max="100" id="progress">
+          </div>
+
+
+          <div class="volumeSlider">
+            <button id="volume-down"> - </button>
+            <input type="range" id="volume-slider" class="slider" min="0" max="1" step="0.01" value="0.5">
+            <button id="volume-up"> + </button>
+          </div>
+
+          
+          <div class="songdButtons">
+            <img class="prev" src="Code/images/prevsong.svg" alt="">
+            <img class="" src="Code/images/play-circle-02-stroke-rounded.svg" alt="">
+            <img class="next" src="Code/images/nextsong.svg" alt="">
+
+          </div>
+
+          <div class="songtime">
+
+          </div>
+
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
